@@ -1,0 +1,222 @@
+$font-path: "../../fonts";
+@font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 900;
+
+    src: url($font-path+'/lato/lato-black.eot');
+    src: url($font-path+'/lato/lato-black.eot?#iefix') format('embedded-opentype'), 
+        url($font-path+'/lato/lato-black.woff') format('woff'), 
+        url($font-path+'/lato/lato-black.ttf') format('truetype'), 
+        url($font-path+'/lato/lato-black.svg#latoblack') format('svg');
+}
+@font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 700;
+
+    src: url($font-path+'/lato/lato-bold.eot');
+    src: url($font-path+'/lato/lato-bold.eot?#iefix') format('embedded-opentype'), 
+        url($font-path+'/lato/lato-bold.woff') format('woff'), 
+        url($font-path+'/lato/lato-bold.ttf') format('truetype'), 
+        url($font-path+'/lato/lato-bold.svg#latobold') format('svg');
+}
+@font-face {
+    font-family: 'lato';
+    font-style: italic;
+    font-weight: 700;
+
+    src: url($font-path+'/lato/lato-bolditalic.eot');
+    src: url($font-path+'/lato/lato-bolditalic.eot?#iefix') format('embedded-opentype'), 
+        url($font-path+'/lato/lato-bolditalic.woff') format('woff'), 
+        url($font-path+'/lato/lato-bolditalic.ttf') format('truetype'), 
+        url($font-path+'/lato/lato-bolditalic.svg#latobold-italic') format('svg');
+}
+@font-face {
+    font-family: 'lato';
+    font-style: italic;
+    font-weight: 400;
+
+    src: url($font-path+'/lato/lato-italic.eot');
+    src: url($font-path+'/lato/lato-italic.eot?#iefix') format('embedded-opentype'), 
+        url($font-path+'/lato/lato-italic.woff') format('woff'), 
+        url($font-path+'/lato/lato-italic.ttf') format('truetype'), 
+        url($font-path+'/lato/lato-italic.svg#latoitalic') format('svg');
+}
+@font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 300;
+
+    src: url($font-path+'/lato/lato-light.eot');
+    src: url($font-path+'/lato/lato-light.eot?#iefix') format('embedded-opentype'), 
+        url($font-path+'/lato/lato-light.woff') format('woff'), 
+        url($font-path+'/lato/lato-light.ttf') format('truetype'), 
+        url($font-path+'/lato/lato-light.svg#latolight') format('svg');
+}
+@font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url($font-path+'/lato/lato-regular.eot');
+    src: url($font-path+'/lato/lato-regular.eot?#iefix') format('embedded-opentype'), 
+        url($font-path+'/lato/lato-regular.woff') format('woff'), 
+        url($font-path+'/lato/lato-regular.ttf') format('truetype'), 
+        url($font-path+'/lato/lato-regular.svg#latoregular') format('svg');
+}
+
+/* PT Serif */
+/*
+@font-face {
+    font-family: 'PTSerif';
+    src: local('PT Serif'),
+         local('PT-Serif'),
+         url($font-path+'/pt-serif/PT-Serif-webfont.woff') format('woff');
+    src: url($font-path+'/pt-serif/PT-Serif-webfont.eot') format('eot'),
+         url($font-path+'/pt-serif/PT-Serif-webfont.ttf') format('truetype'),
+         url($font-path+'/pt-serif/PT-Serif-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSerif';
+    src: local('PT Serif Italic'),
+         local('PT-Serif-Italic'),
+         url($font-path+'/pt-serif/PT-Serif-Italic-webfont.woff') format('woff');
+    src: url($font-path+'/pt-serif/PT-Serif-Italic-webfont.eot') format('eot'),
+         url($font-path+'/pt-serif/PT-Serif-Italic-webfont.ttf') format('truetype'),
+         url($font-path+'/pt-serif/PT-Serif-Italic-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'Crete Round';
+  src: url($font-path+'/crete-round/crete-round-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Crete Round';
+  src: url($font-path+'/crete-round/crete-round-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Varela Round';
+  src: url($font-path+'/varela-round/varela-round-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+/*@font-face {
+  font-family: 'Montserratx';
+  src: url($font-path+'/montserrat/montserrat-bold-webfont.eot');
+  src: url($font-path+'/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url($font-path+'/montserratx/montserrat-bold-webfont.woff2') format('woff2'),
+       url($font-path+'/montserratx/montserrat-bold-webfont.woff') format('woff'),
+       url($font-path+'/montserratx/montserrat-bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserratx';
+  src: url($font-path+'/montserrat/montserrat-regular-webfont.eot');
+  src: url($font-path+'/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url($font-path+'/montserratx/montserrat-regular-webfont.woff2') format('woff2'),
+       url($font-path+'/montserratx/montserrat-regular-webfont.woff') format('woff'),
+       url($font-path+'/montserratx/montserrat-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratxx';
+    src: url($font-path+'/montserrat/montserrat-light-webfont.eot');
+    src: url($font-path+'/montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font-path+'/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+         url($font-path+'/montserrat/montserrat-light-webfont.woff') format('woff'),
+         url($font-path+'/montserrat/montserrat-light-webfont.ttf') format('truetype'),
+         url($font-path+'/montserrat/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratxx';
+    src: url($font-path+'/montserrat/montserrat-hairline-webfont.eot');
+    src: url($font-path+'/montserrat/montserrat-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font-path+'/montserrat/montserrat-hairline-webfont.woff2') format('woff2'),
+         url($font-path+'/montserrat/montserrat-hairline-webfont.woff') format('woff'),
+         url($font-path+'/montserrat/montserrat-hairline-webfont.ttf') format('truetype'),
+         url($font-path+'/montserrat/montserrat-hairline-webfont.svg#montserrathairline') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratxx';
+    src: url($font-path+'/montserrat/montserrat-black-webfont.eot');
+    src: url($font-path+'/montserrat/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font-path+'/montserrat/montserrat-black-webfont.woff2') format('woff2'),
+         url($font-path+'/montserrat/montserrat-black-webfont.woff') format('woff'),
+         url($font-path+'/montserrat/montserrat-black-webfont.ttf') format('truetype'),
+         url($font-path+'/montserrat/montserrat-black-webfont.svg#montserratblack') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratxx';
+    src: url($font-path+'/montserrat/montserrat-bold-webfont.eot');
+    src: url($font-path+'/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font-path+'/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+         url($font-path+'/montserrat/montserrat-bold-webfont.woff') format('woff'),
+         url($font-path+'/montserrat/montserrat-bold-webfont.ttf') format('truetype'),
+         url($font-path+'/montserrat/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url($font-path+'/montserrat/montserrat-regular-webfont.eot');
+    src: url($font-path+'/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font-path+'/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url($font-path+'/montserrat/montserrat-regular-webfont.woff') format('woff'),
+         url($font-path+'/montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+         url($font-path+'/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url($font-path+'/montserrat/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url($font-path+'/montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url($font-path+'/montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

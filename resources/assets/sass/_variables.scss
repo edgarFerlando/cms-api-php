@@ -1,0 +1,38 @@
+$img-path: "../../img";
+
+$border-base-color : #E4E6EA;
+$soft-blue          : #EEF3F7;
+$darker-grey : #50514F;
+
+.border-radius{
+    -webkit-border-radius: $global-radius;
+	-moz-border-radius: $global-radius;
+	border-radius: $global-radius;
+}
+
+.border-bottom-radius{
+	-webkit-border-bottom-right-radius: $global-radius;
+    -webkit-border-bottom-left-radius: $global-radius;
+    -moz-border-radius-bottomright: $global-radius;
+    -moz-border-radius-bottomleft: $global-radius;
+    border-bottom-right-radius: $global-radius;
+    border-bottom-left-radius: $global-radius;
+}
+
+.border-top-radius{
+	-webkit-border-top-left-radius: $global-radius;
+    -webkit-border-top-right-radius: $global-radius;
+    -moz-border-radius-topleft: $global-radius;
+    -moz-border-radius-topright: $global-radius;
+    border-top-left-radius: $global-radius;
+    border-top-right-radius: $global-radius;
+}
+
+.border-left-radius{
+    -webkit-border-top-left-radius: $global-radius;
+    -webkit-border-bottom-left-radius: $global-radius;
+    -moz-border-radius-topleft: $global-radius;
+    -moz-border-radius-bottomleft: $global-radius;
+    border-top-left-radius: $global-radius;
+    border-bottom-left-radius: $global-radius;
+}

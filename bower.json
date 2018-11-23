@@ -1,0 +1,15 @@
+{
+  "name": "holiday",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "iCheck": "~1.0.2",
+    "admin-lte": "~2.0.5",
+    "foundation": "~5.5.2",
+    "slick-carousel": "~1.5.5",
+    "selectize": "~0.12.1",
+    "foundation-datepicker": "^1.5.2",
+    "holderjs": "^2.9.3",
+    "devbridge-autocomplete": "^1.2.24"
+  }
+}

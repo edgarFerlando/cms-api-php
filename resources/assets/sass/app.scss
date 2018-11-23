@@ -1,0 +1,12 @@
+@import "fonts";
+@import "../vendor/foundation/scss/normalize";
+@import "frontend_foundation_settings";
+@import "../vendor/foundation/scss/foundation";
+
+$fa-font-path: "../../fonts/font-awesome" !default;
+@import "../vendor/font-awesome/scss/font-awesome.scss";
+@import "../vendor/slick-carousel/slick/slick.scss";
+@import "../vendor/slick-carousel/slick/slick-theme.scss";
+@import "../vendor/responsive-tables/responsive-tables.scss";
+@import "foundation_datepicker";
+@import "_app";

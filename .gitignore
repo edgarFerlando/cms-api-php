@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+.env
+/db backup
+.docker-compose.yml
+/public
